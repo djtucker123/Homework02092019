@@ -1,0 +1,19 @@
+#article-title, #article-body {
+  display: block;
+  margin: 5px 0;
+}
+
+#article-btn, .authors {
+  height: 30px;
+  width: 70px;
+  background: lightblue;
+  color: red;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+
+#articles div {
+  padding: 10px;
+  margin: 10px;
+  border: black 2px solid;
+}
