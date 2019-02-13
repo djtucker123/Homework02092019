@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "NODE_ENV=test mocha public/js/tests/*.js",
-    "windowstest": "env NODE_ENV=test mocha",
+    "windowstest": "env NODE_ENV=test mocha public/js/tests/*.js",
     "start": "node server.js"
   },
   "keywords": [],
