@@ -18,7 +18,6 @@ describe('GET Store inventory API Method (7 tests MYSQL)', function() {
     //request = chai.request(server);
     request = chai.request("http://localhost:8150");
     return db.sequelize.sync({ force: true });
-    
   });
   
   it('should find all DB stock items', function(done) {

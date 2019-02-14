@@ -40,6 +40,8 @@ if (process.env.NODE_ENV !== "test") {
     app.listen(PORT, function() {
       console.log('App listening on PORT ' + PORT);
     });
+  }).catch(function(err) {
+    console.log('An error occurred');
   });
 }
 module.exports = app;
