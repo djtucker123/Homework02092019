@@ -20,7 +20,7 @@ module.exports = function(app) {
  
 
 
-  // PUT route for updating authors
+  // PUT route for updating stock quantity
   app.put('/api/quantity/:id', function(req, res) {
     console.log(req.body);
     console.log(req.params.id);

@@ -3,7 +3,7 @@ module.exports = function(connection, Sequelize) {
       item_id: Sequelize.INTEGER,
       product_name: Sequelize.STRING,
       department_name: Sequelize.STRING,
-      price: Sequelize.INTEGER,
+      price: Sequelize.FLOAT,
       stock_quantity: Sequelize.INTEGER,
    
     });
